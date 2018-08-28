@@ -2,10 +2,438 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3409d177-cdff-460f-974d-490cb52b1bd9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Othello.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_all_tests_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_alpha_beta_strategy_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_alpha_beta_strategy_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_board_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_board_comparator_white_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_board_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_button_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_button_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_color_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_command_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_command_manager_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_command_manager_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_command_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_controller_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_controller_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_difficulty_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_disk_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_disk_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_forfeit_listener_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_game_loop_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_minimax_strategy_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_minimax_strategy_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_new_game_listener_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_place_disk_listener_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_player_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_player_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_random_strategy_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_random_strategy_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_redo_listener_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_score_comparator_white_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_strategy_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_undo_listener_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_utility_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_utility_test_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/_view_8java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/annotated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/annotated_dup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/arrowdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/bc_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/bdwn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_forfeit_listener-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_forfeit_listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_forfeit_listener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_forfeit_listener.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_new_game_listener-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_new_game_listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_new_game_listener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_new_game_listener.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_place_disk_listener-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_place_disk_listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_place_disk_listener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_place_disk_listener.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_redo_listener-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_redo_listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_redo_listener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_redo_listener.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_undo_listener-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_undo_listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_undo_listener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classlisteners_1_1_undo_listener.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_board-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_board.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_board.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_button-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_command-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_command.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_command.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_command_manager-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_command_manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_command_manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_controller-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_disk-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_disk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_disk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_game_loop-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_game_loop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_player-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_player.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_view-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classmain__components_1_1_view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_alpha_beta_strategy-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_alpha_beta_strategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_alpha_beta_strategy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_alpha_beta_strategy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_board_comparator_white-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_board_comparator_white.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_board_comparator_white.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_board_comparator_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_minimax_strategy-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_minimax_strategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_minimax_strategy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_minimax_strategy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_random_strategy-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_random_strategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_random_strategy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_random_strategy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_score_comparator_white-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_score_comparator_white.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_score_comparator_white.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_score_comparator_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_strategy-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_strategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_strategy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_strategy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_utility-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_utility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classstrategies_1_1_utility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_all_tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_alpha_beta_strategy_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_alpha_beta_strategy_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_alpha_beta_strategy_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_board_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_board_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_board_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_button_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_button_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_button_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_command_manager_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_command_manager_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_command_manager_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_command_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_command_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_command_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_controller_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_controller_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_controller_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_disk_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_disk_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_disk_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_minimax_strategy_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_minimax_strategy_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_minimax_strategy_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_player_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_player_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_player_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_random_strategy_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_random_strategy_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_random_strategy_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_utility_test-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_utility_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/classtests_1_1_utility_test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_1bdf4233a5a02faacdfef80d3e4ad7ac.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_1bdf4233a5a02faacdfef80d3e4ad7ac.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_68267d1309a1af8e8297ef4c3efbcdba.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_68267d1309a1af8e8297ef4c3efbcdba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_943d352f320bafa409128772d570ff03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_943d352f320bafa409128772d570ff03.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_d93a1d4020dea85bb71b237545b5e722.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_d93a1d4020dea85bb71b237545b5e722.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_e039f33230782561e70d8ebde2ebf3fe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dir_e039f33230782561e70d8ebde2ebf3fe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/doxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/doxygen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/dynsections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/enummain__components_1_1_color-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/enummain__components_1_1_color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/enummain__components_1_1_color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/enumstrategies_1_1_difficulty-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/enumstrategies_1_1_difficulty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/enumstrategies_1_1_difficulty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/folderclosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/folderopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_dup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_g.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_i.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_p.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_r.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_s.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_u.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_v.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_vars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_w.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_x.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/functions_y.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/hierarchy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacelisteners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacelisteners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacemain__components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacemain__components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespaces.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespaces.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacestrategies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacestrategies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacetests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/namespacetests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/nav_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/nav_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/nav_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/navtree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/navtree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/navtreedata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/navtreeindex0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/navtreeindex1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/all_f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/classes_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/files_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/functions_f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/mag_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/namespaces_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/nomatches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/search_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/search_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/search_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/searchdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/search/variables_f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/splitbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/sync_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/sync_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/tab_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/tab_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/tab_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/tab_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/research_project.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_components/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_components/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/AlphaBetaStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/MinimaxStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/MinimaxStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/AlphaBetaStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/BoardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ButtonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/CommandManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/CommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/DiskTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/MinimaxStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/PlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/RandomStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/UtilityTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +445,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_components/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinimaxStrategy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MinimaxStrategy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/strategies/MinimaxStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,79 +457,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategies/Utility.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main_components/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-631">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardComparatorWhite.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/strategies/BoardComparatorWhite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaceDiskListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/listeners/PlaceDiskListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedoListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/listeners/RedoListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UndoListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/listeners/UndoListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameLoop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_components/GameLoop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Difficulty.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategies/Difficulty.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlphaBetaStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategies/AlphaBetaStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="-211">
+              <caret line="96" column="60" lean-forward="true" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -119,6 +470,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main_components/Controller.java" />
+        <option value="$PROJECT_DIR$/src/strategies/MinimaxStrategy.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -269,12 +628,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533713183252</updated>
       <workItem from="1533713187047" duration="886000" />
-      <workItem from="1535454339466" duration="3285000" />
+      <workItem from="1535454339466" duration="4966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4171000" />
+    <option name="totallyTimeSpent" value="5852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -282,27 +641,27 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -433,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main_components/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main_components/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -447,53 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/listeners/ForfeitListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/listeners/NewGameListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/listeners/PlaceDiskListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/listeners/RedoListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/listeners/UndoListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main_components/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -504,6 +813,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategies/AlphaBetaStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/AlphaBetaStrategyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategies/RandomStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategies/BoardComparatorWhite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategies/ScoreComparatorWhite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategies/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategies/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listeners/NewGameListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listeners/UndoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listeners/RedoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listeners/PlaceDiskListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/strategies/Difficulty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -511,34 +906,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategies/AlphaBetaStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/listeners/ForfeitListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategies/MinimaxStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategies/Utility.java">
+    <entry file="file://$PROJECT_DIR$/src/main_components/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-631">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="-211">
+          <caret line="96" column="60" lean-forward="true" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategies/BoardComparatorWhite.java">
+    <entry file="file://$PROJECT_DIR$/src/strategies/MinimaxStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

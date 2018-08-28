@@ -7,19 +7,11 @@ import main_components.Color;
 import main_components.Command;
 import main_components.Controller;
 
-/**
- * \brief
- * Decides a computer move based on "Minimax" strategy.
- * @author Rodney Shaghoulian
- */
 public class MinimaxStrategy extends Strategy{
 
-	public int depth = 5;			///< The depth to search the game tree
+	public int depth = 5;
 	
-	/**
-	 * Constructor - Calls subclasses constructor
-	 * @param controller	The Othello simulation that we should run Minimax on.
-	 */
+
 	public MinimaxStrategy(Controller controller){
 		super(controller);
 	}

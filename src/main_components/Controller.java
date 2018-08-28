@@ -6,7 +6,6 @@ import listeners.PlaceDiskListener;
 import listeners.RedoListener;
 import listeners.UndoListener;
 import strategies.MinimaxStrategy;
-import strategies.AlphaBetaStrategy;
 import strategies.Difficulty;
 import strategies.RandomStrategy;
 
@@ -131,8 +130,14 @@ public class Controller {
 	 */
 	public void computerHard(){
 		while (board.playerTurn == Color.WHITE && !board.gameEnded){
-			AlphaBetaStrategy alphaBetaStrategy = new AlphaBetaStrategy(this);
-			board = alphaBetaStrategy.move(board);
+			MinimaxStrategy minimaxStrategy = new MinimaxStrategy(this);
+			try{
+				Thread.sleep(300);
+			}
+			catch (InterruptedException interruptedException) {
+				System.out.println("Sleep exception occurred");
+			}
+			board = minimaxStrategy.move(board);
 		}
 	}
 }
