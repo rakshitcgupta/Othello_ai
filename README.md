@@ -11,8 +11,8 @@ The object of the game is to have the majority of disks turned to display your c
 
 ![][screenshot_othello_300px]
 
-## Designing An Intelligent Othello System Using Turn-based Partitioning
+## Designing An Intelligent Othello System Using AI
 
-#### Abstract
+#### Algorithm used
 In this project, Minimax Search is used as the foundation of our game tree search.
 [screenshot_othello_300px]: https://github.com/rakshitcgupta/Othello_ai/blob/dev/screenshots/screenshot_othello_300px.PNG
